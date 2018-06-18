@@ -1,0 +1,7 @@
+i. Data travels the internet via "packages" that are delivered across the network - the packages all carry their own instructions/information that is "unpacked" when it reaches a certain destination, and then is "repacked" if it needs to keep traveling further. Once all pieces reach the intended destination, everything is unpacked one last time and reassembled in a way that will make sense to the receiver.
+
+ii. IP addresses act as identifiers for the information included in a network; DNS's act as translators for both receiving and sending the information that's included in the IP address so that individual computers can understand said information
+
+iii. Cookies are essentially personalized messages that track/store what you've looked at online - they remember that you have been online shopping for a dress to wear to your cousin's wedding (for example.) The next time you visit Nordstrom's online shopping page to finally purchase a dress, the cookie on Nordstrom's webpage remembers that you logged in with your sallysmith123 user name, and then you can navigate to the three dresses that you put into your shopping cart.
+
+iv. Protocol/domain name/path of information
