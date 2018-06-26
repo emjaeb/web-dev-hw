@@ -16,7 +16,10 @@
 (Summer Program for Kids Aged 3-15 Years)
   </p>
 
-<br>
+<figure>
+  <img src="./images/kampfire.jpg" alt="Kampers share stories while learning traditional outdoor cooking." title="Kampfire" width="580" height="350" /><br>
+  <figcaption><i>Kampers share stories while learning traditional outdoor cooking.</i></figcaption>
+</figure>
 
   <h2>About Us...</h2>
   <p>The Pine Park Center "Kids Kamp" is a week-long summer camp offering a variety of programs in athletics, wilderness awareness, and arts and humanities. Kampers are exposed to a wide-range of indoor and outdoor activities, designed to strengthen group and individual dynamics, skills, and interests. Registration begins May 1.</p>
@@ -39,7 +42,7 @@
 
 <br>
 
-<h2>Schedule for the week:</h2>
+<h2>Weekly Schedule:</h2>
 
 <table>
    <tr>
@@ -116,11 +119,19 @@
 
 <hr>
 
+<head>
+   <style>
+      table, th, td {
+         border: 1px solid black;
+      }
+   </style>
+</head>
 
-
+<body>
  <table>
    <tr>
-     <th><h2>Program Fees</h2></th>
+     <th></th>
+       <h2>Program Fees:</h2></th>
      <th scope="col">Registration is a one-time cost of $50 (non-refundable).<br>
        Electronic "Kamp Kards" are charged at the entrance to all programs, and are pre-filled in these amounts:</th>
    </tr>
@@ -149,26 +160,52 @@
      <td>$225</td>
    </tr>
    <tr>
-     <th scope="row">Kickers Soccer Program ONLY</th>
+     <th scope="row">Kickers Soccer Program ONLY**</th>
      <td>$25</td>
    </tr>
  </table>
+</body>
 
- <h3><b>Jerseys:</b></h3>
- <p>Kickers Registration includes one team jersey (100% polyester), in standard sizes: 3T, 4T, 5T, Youth XS (4-5), Youth S (6-8), Youth M (9-11), Youth L (12-14), Youth XL/Adult S (15)</p>
+ <h3><b>**Jerseys:</b></h3>
+ <p>Kickers Registration includes one team jersey (100% polyester), in standard sizes: 3T, 4T, 5T, Youth XS (4-5), Youth S (6-8), Youth M (9-11), Youth L (12-14), Youth XL/Adult S (15)</p></br>
 
-<hr>
+<hr></br>
 
-<h3>Please complete our registration form below.</h3>
-<p>(Note: 1 submission per child.)</p>
-  <form action="https://www.example.com" method="get">
-  <p>Child's first name: <input type="text" name="fname"></p><br>
-  <p>Child's last name: <input type="text" name="lname"></p><br>
-  <p>Parent's first name: <input type="text" name="fname"></p><br>
-  <p>Parent's last name: <input type="text" name="fname"></p><br>
-  <p>Parent's phone number: <input type="text" name="fname"></p><br>
-  <p>Parent's email address: <input type="text" name="fname"></p><br>
-  <p>Programs of interest:<br>
-    <p><textarea name="comments" id="test-textarea">Enter up to 500 characters...</textarea></p><br></p>
-  <input type="submit" value="Submit">
+<head>
+  <h3>Please complete our registration form below to get started (1 submission per child.)</h3>
+
+<form>
+  <body>
+      <form action="https://www.example.com" method="get">
+          <p>Child's first name: <input type="text" name="fname" id="test-text" placeholder="Child First"></p>
+          <p>Child's middle name: <input type="text" name="mname" id="test-text" placeholder="Child Middle"></p>
+          <p>Child's last name: <input type="text" name="lname" id="test-text" placeholder="Child Last"></p>
+          <p>Child's birthday: <input type="text" name="bday" id="test-text" placeholder="MM/DD/YY"></p>
+          <p>Parent's first name: <input type="text" name="fname" id="test-text" placeholder="Parent First"></p>
+          <p>Parent's last name: <input type="text" name="lname" id="test-text" placeholder="Parent Last"></p>
+          <p>Parent's phone number: <input type="text" name="phone" id="test-text" placeholder="(xxx)xxx-xxxx"></p>
+          <p>Parent's email address: <input type="text" name="email" id="test-text" placeholder="example@email.com"></p>
+          <p><h3>Program selection:</h3></p>
+          <p><input type="checkbox" name="program" value="fire" /> Kommunity Kampfire</p>
+          <p><input type="checkbox" name="program" value="kamp" /> Kamping</p>
+          <p><input type="checkbox" name="program" value="swim" /> Katfish Swimming</p>
+          <p><input type="checkbox" name="program" value="konq" /> Konquerors</p>
+          <p><input type="checkbox" name="program" value="krafts" /> Krafts and Kultures</p>
+          <p><input type="checkbox" name="program" value="kick" /> Kids Kamp Kickers</p>
+          <p><i>If signing up for Kamp Kickers, please select jersey size below, OR please select N/A if child is not participating in Kickers...</i></p>
+            <select name="jersey size">
+              <option value="n/a">N/A</option>
+              <option value="3t">3T</option>
+              <option value="4t">4T</option>
+              <option value="xs">Youth XS (4-5)</option>
+              <option value="s">Youth S (6-8)</option>
+              <option value="m">Youth M (9-11)</option>
+              <option value="l">Youth L (12-14)</option>
+              <option value="xl">Youth XL/Adult S (15)</option>
+  </select>
+
+          <p><b><i>Comments? Questions? Additional information that we need to know about?</b></i><br>
+        <p><textarea name="comments" id="test-textarea" cols="50" rows="4">Enter up to 500 characters...</textarea></p>
+    <input type="submit" value="Submit">
+  </body>
 </form>
