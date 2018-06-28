@@ -1,11 +1,21 @@
+body {
+    background-color: grey;
+}
+
 h2 {
-   font-family: @import url('https://fonts.googleapis.com/css?family=Spirax');;
-   font-size: 22px;
-   font-weight: italic;
+   font-family: 'Papyrus', 'garamond';
+   font-size: 24px;
+   font-weight: 'italic';
    text-align: center !important;
 }
+h3 {
+   font-family: 'Garamond';
+   font-size: 18px;
+   font-weight: 'bold';
+   text-align: left !important;
+}
 p1 {
-   font-family: serif;
+   font-family: 'garamond';
    font-size: 19px;
    font-weight: bold;
 }

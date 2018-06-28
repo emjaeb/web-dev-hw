@@ -1,0 +1,31 @@
+body {
+  background-color: LIGHTSTEELBLUE;
+  font-family: COURIER;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+li {
+  text-align: center !important;
+  display: inline-block;
+}
+
+.parent-container {
+  position: top;
+  width: 550px;
+  height: 400px;
+  background-color: lightgray;
+  padding: 20px;
+  margin: auto;
+}
+
+.inner-box {
+  z-index: 8;
+  width: 517px;
+  height: 370px;
+  background-color: WHITESMOKE;
+  padding: 8px;
+  margin: auto;
+}
