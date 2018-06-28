@@ -1,0 +1,20 @@
+body * {
+   background-color: LIGHTSLATEGRAY;
+   font-family: courier;
+}
+
+h1 {
+
+   color: #F0E68C;
+   text-align: center !important;
+}
+
+h1.styled {
+   border: 7px solid MISTYROSE;
+   opacity: 0.8;
+}
+
+p {
+  /* This photo is centered */
+  text-align: center !important;
+}
