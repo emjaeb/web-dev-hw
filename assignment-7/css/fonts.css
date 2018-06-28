@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+
+@font-face {
+    font-family: 'Roboto Thin', 'Arial';
+    src: url(./fonts/roboto/roboto-thin.ttf);
+}
+
+#heading-2 {
+    font-family: 'Roboto Thin', 'Arial';
+}

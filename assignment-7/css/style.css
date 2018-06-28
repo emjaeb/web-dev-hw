@@ -1,0 +1,40 @@
+h2 {
+   font-family: @import url('https://fonts.googleapis.com/css?family=Spirax');;
+   font-size: 22px;
+   font-weight: italic;
+   text-align: center !important;
+}
+p1 {
+   font-family: serif;
+   font-size: 19px;
+   font-weight: bold;
+}
+p6 {
+   font-family: monospace;
+   font-size: ;
+   font-weight: ;
+}
+
+/* Specific: */
+p7 {
+   font-family: Times;
+   font-size: ;
+   font-weight: ;
+}
+p8 {
+   font-family: serif;
+   font-size: ;
+   font-weight: ;
+}
+p9 {
+   font-family: monospace;
+   font-size: ;
+   font-weight: ;
+}
+
+/* Specific: */
+p10 {
+   font-family: Times;
+   font-size: ;
+   font-weight: ;
+}
